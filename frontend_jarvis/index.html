@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Banking Cat</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet" />
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+
+    <!-- Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+        (function (d, m) {
+            var kommunicateSettings = { "appId": "19b5feeea68bbda6b092915fcf0e7ebc3", "conversationTitle": "Banking Cat", "botIds": ["bankingcat"] };
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://api.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
+</head>
+
+<body>
+
+
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-transparent" color-on-scroll="500">
+
+        <div class="container container-fluid">
+            <div class="navbar-translate navbar-header">
+                <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse"
+                    data-target="#myNavbar" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/logo.png" alt="" style="height: 40px">
+                    Banking Cat</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ml-auto nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><i></i> About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#partners" class="nav-link"><i class="nc-icon nc-layout-11"></i>Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#application" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><i></i> Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://facebook.com/bankingcat"
+                            target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                            <p class="d-lg-none">Facebook</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="http://food4kids.ca" class="btn btn-danger btn-round"><i></i>Donate Food4kids</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <!-- Page -->
+    <div class="wrapper">
+        <!-- Header -->
+
+        <div class="page-header" data-parallax="true" style="background-image: url('./assets/img/background.jpg');">
+            <div class="filter"></div>
+            <div class="container ">
+                <div class="motto text-center animatable fadeInUp">
+                    <h1>Banking Cat</h1>
+                    <h3>We know what you need, just like your cat.</h3>
+                    <br>
+                    <button type="button" onclick="location.href='#application'" class="btn btn-outline-neutral btn-round">Try
+                        out</button>
+                </div>
+            </div>
+        </div>
+        <!-- Main -->
+        <div class="main">
+            <!-- About Us -->
+            <div id="about" class="section text-center container-fluid">
+                <div class="container">
+                    <div class="row animatable fadeInUp">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <h1 class="title">About Us</h1>
+                            <h5 id="test" class="description animated">Banking Cat is an web application provides
+                                personal banking soluction. It analyze your monthly expenditure and income with machine
+                                learning and select a best banking solution for you after comparing all the current
+                                available plans and credit cards. And now support voice assistant on Google Home!
+                            </h5>
+                            <br>
+                            <!-- <a href="#paper-kit" class="btn btn-danger btn-round">See Details</a> -->
+                        </div>
+                    </div>
+                    <br /><br />
+
+
+                    <div class="row animatable fadeInUp">
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-album-2"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Cross-Platform</h4>
+                                    <br>
+                                    <p class="description">Since we use Google's Dialogflow, it is easy to deploy on other platforms like Alexa and mobile Apps. </p>
+                                    <a href="#application" class="btn btn-link btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-bulb-63"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Natural Language Processing</h4>
+                                    <p>Provide friendly user interface by using<b>Dialogflow</b>. Just like talking to a real consultant.</p>
+                                    <a href="https://dialogflow.com" class="btn btn-link btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-chart-bar-32"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Data Analysis</h4>
+                                    <br>
+                                    <p>Analyze your monthly banking statement (csv) and recommend the best solution to you.</p>
+                                    <a href="https://azure.microsoft.com/en-ca/services/analysis-services/" class="btn btn-link btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-sun-fog-29"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Delightful design</h4>
+                                    <br>
+                                    <p>Bright and clear user interface design.</p>
+                                    <a href="#pkp" class="btn btn-link btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- Business Partners -->
+            <div id="partners" class="section text-center container-fluid">
+                <div class="container">
+                    <h1 class="title animatable fadeInUp">Supported Banks</h1>
+                    <br />
+                    <br />
+                    <br />
+
+
+                    <div class="row">
+                        <div class="col-sm-3 animatable fadeInUp">
+                            <img src="./assets/img/partners/rbc.png" style="height: 100px">
+                            <br>
+                        </div>
+
+                        <div class="col-sm-3 animatable fadeInUp">
+                            <img src="./assets/img/partners/TD.png" style="height: 120px">
+                            <br>
+                        </div>
+
+                        <div class="col-sm-3 animatable fadeInUp">
+                            <img src="./assets/img/partners/CIBC_logo.png" style="height: 120px">
+                            <br>
+                        </div>
+
+                        <div class="col-sm-3 animatable fadeInUp">
+                            <img src="./assets/img/partners/BMO_Logo.png" style="height: 100px">
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Application -->
+            <div id="application" class="section text-center container-fluid">
+                <div class="container">
+                    <h1 class="title animatable fadeInUp">Web Application</h1>
+                    <br />
+                    <br />
+                    <br />
+
+                    <div class="row">
+                        <div class="col-sm-12 animatable fadeInUp">
+                            <p>Click on the small window at the lower right corner.</p>
+                            <p>Available on</p>
+
+                        </div>
+
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-4 animatable fadeInUp">
+                            <img src="./assets/img/platforms/react.png" style="height: 100px">
+                            <br>
+                            <br>
+                        </div>
+
+                        <div class="col-sm-4 animatable fadeInUp">
+                            <img src="./assets/img/platforms/alexa.png" style="height: 120px">
+                            <br>
+                            <br>
+                        </div>
+
+                        <div class="col-sm-4 animatable fadeInUp">
+                            <img src="./assets/img/platforms/google.png" style="height: 150px">
+                            <br>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us -->
+            <div id="contact" class="section text-center container-fluid">
+                <div class="container">
+                    <h1 class="title animatable fadeInUp">Contact Us</h1>
+                    <div class="row">
+                        <!--Google map-->
+                        <div class="col-md-6 animatable fadeInUp">
+                            <div id="map-container" class="card card-profile card-plain" style="height: 300px; width: 100% ">
+                            </div>
+                        </div>
+
+                        <!--Google Map Setting-->
+                        <script>
+                            // Initialize and add the map
+                            function initMap() {
+                                // The location of Uluru
+                                var uluru = { lat: 43.259121, lng: -79.920842 };
+                                // The map, centered at Uluru
+                                var map = new google.maps.Map(document.getElementById('map-container'), {
+                                    zoom: 15,
+                                    center: uluru,
+                                    styles: [
+                                        { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
+                                        { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
+                                        { elementType: 'labels.text.fill', stylers: [{ color: '#6a48ba' }] },
+                                        {
+                                            featureType: 'administrative.locality',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#9b0d0d' }]
+                                        },
+                                        {
+                                            featureType: 'poi',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#6a48ba' }]
+                                        },
+                                        {
+                                            featureType: 'poi.park',
+                                            elementType: 'geometry',
+                                            stylers: [{ color: '#263c3f' }]
+                                        },
+                                        {
+                                            featureType: 'poi.park',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#6b9a76' }]
+                                        },
+                                        {
+                                            featureType: 'road',
+                                            elementType: 'geometry',
+                                            stylers: [{ color: '#38414e' }]
+                                        },
+                                        {
+                                            featureType: 'road',
+                                            elementType: 'geometry.stroke',
+                                            stylers: [{ color: '#212a37' }]
+                                        },
+                                        {
+                                            featureType: 'road',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#9ca5b3' }]
+                                        },
+                                        {
+                                            featureType: 'road.highway',
+                                            elementType: 'geometry',
+                                            stylers: [{ color: '#23087a' }]
+                                        },
+                                        {
+                                            featureType: 'road.highway',
+                                            elementType: 'geometry.stroke',
+                                            stylers: [{ color: '#1f2835' }]
+                                        },
+                                        {
+                                            featureType: 'road.highway',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#6a48ba' }]
+                                        },
+                                        {
+                                            featureType: 'transit',
+                                            elementType: 'geometry',
+                                            stylers: [{ color: '#2f3948' }]
+                                        },
+                                        {
+                                            featureType: 'transit.station',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#d59563' }]
+                                        },
+                                        {
+                                            featureType: 'water',
+                                            elementType: 'geometry',
+                                            stylers: [{ color: '#17263c' }]
+                                        },
+                                        {
+                                            featureType: 'water',
+                                            elementType: 'labels.text.fill',
+                                            stylers: [{ color: '#515c6d' }]
+                                        },
+                                        {
+                                            featureType: 'water',
+                                            elementType: 'labels.text.stroke',
+                                            stylers: [{ color: '#17263c' }]
+                                        }
+                                    ]
+                                });
+                                // The marker, positioned at Uluru
+                                var marker = new google.maps.Marker({ position: uluru, map: map, title: "Banking Cat" });
+                            }
+                        </script>
+                        <div class="col-md-6 animatable fadeInUp">
+                            <div class="card card-profile card-plain" style="height: 100%; width: 100% ">
+                                <div class="card-body">
+                                    <p class="card-description" style="text-align: left">
+                                        If you have any questions or would like to become a business, please do not
+                                        hesitate to contact us at
+                                        <br />
+                                        <a href="mailto:bankingcat@gmail.com" style="color:#23087a">
+                                            bankingcat@gmail.com
+                                        </a>
+                                        <br />
+                                        <br />
+                                    </p>
+
+                                    <div class="author" style="text-align: left">
+                                        <h4 class="card-title">McMaster University</h4>
+                                    </div>
+
+                                    <p class="card-description" style="text-align: left">
+                                        Thode Library
+                                        <br />
+                                        1280 Main St W
+                                        <br />
+                                        Hamilton, ON
+                                        <br />
+                                        L8P 0B8
+                                        <br />
+                                        <br />
+                                        <br />
+
+                                    </p>
+                                    <p class="card-description text-center">
+                                        <button class="btn btn-danger btn-lg btn-fill" onclick="location.href='mailto:bankingcat@gmail.com'"
+                                            type="button">Contact Us</button>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br />
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="credits ml-auto">
+                    <span class="copyright">
+                        &copy; 2018 Banking Cat. All rights reserved.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- smooth scroll -->
+    <script>
+        $(document).ready(function () {
+            // Add scrollspy to <body>
+            $('body').scrollspy({ target: ".navbar", offset: 50 });
+
+            // Add smooth scrolling on all links inside the navbar
+            $("#myNavbar a").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }  // End if
+            });
+        });
+    </script>
+
+
+</body>
+
+<!-- Core JS Files -->
+<script src="assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/popper.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBayJJXo_yGLVyvHH6TYOj7yqUvX6ozClQ&callback=initMap"
+    async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!-- Switches -->
+<script src="assets/js/bootstrap-switch.min.js"></script>
+
+<!--  Plugins for Slider -->
+<script src="assets/js/nouislider.js"></script>
+
+<!--  Plugins for DateTimePicker -->
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+<!--  Paper Kit Initialization and functons -->
+<script src="assets/js/paper-kit.js?v=2.1.0"></script>
+
+<!-- Plugin for the instgram show -->
+<script src="assets/js/infinitescroll.js"></script>
+<script src="assets/js/jquery.instashow-lite.packaged.js"></script>
+
+<!-- animate -->
+<script src="assets/js/animate.js"></script>
+
+
+
+
+</html>
