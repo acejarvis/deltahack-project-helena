@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "Ask_for_card_number",
+      "slots": [
+        {
+          "name": "numberslot",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "Ask_for_bank_name",
+      "slots": [
+        {
+          "name": "bank_acountslot",
+          "type": "BANK_ACOUNT"
+        }
+      ]
+    },
+    {
+      "intent": "DefaultWelcomeIntent"
+    },
+    {
+      "intent": "Ask_for_card_numberNext"
+    },
+    {
+      "intent": "Ask_for_verification_pin",
+      "slots": [
+        {
+          "name": "numberslot",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+  ]
+}
