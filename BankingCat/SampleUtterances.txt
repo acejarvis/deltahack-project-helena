@@ -1,0 +1,43 @@
+Ask_for_card_number	{numberslot}
+Ask_for_card_number	my card is {numberslot}
+Ask_for_bank_name	{bank_acountslot} is my favourite
+Ask_for_bank_name	i am a {bank_acountslot} account user
+Ask_for_bank_name	i am using {bank_acountslot}
+Ask_for_bank_name	i have an {bank_acountslot} account
+Ask_for_bank_name	i m using scotiabank now
+Ask_for_bank_name	i use {bank_acountslot}
+Ask_for_bank_name	i use {bank_acountslot} for ten years
+Ask_for_bank_name	my bank is {bank_acountslot}
+Ask_for_bank_name	my bank is {bank_acountslot} canada trust .
+DefaultWelcomeIntent	a good day
+DefaultWelcomeIntent	greetings
+DefaultWelcomeIntent	hello
+DefaultWelcomeIntent	hello again
+DefaultWelcomeIntent	hello hi
+DefaultWelcomeIntent	hello there
+DefaultWelcomeIntent	hey
+DefaultWelcomeIntent	hey there
+DefaultWelcomeIntent	heya
+DefaultWelcomeIntent	hi
+DefaultWelcomeIntent	hi there
+DefaultWelcomeIntent	howdy
+DefaultWelcomeIntent	i greet you
+DefaultWelcomeIntent	just going to say hi
+DefaultWelcomeIntent	long time no see
+DefaultWelcomeIntent	lovely day isn't it
+DefaultWelcomeIntent	yo man
+Ask_for_card_numberNext	follow result
+Ask_for_card_numberNext	following result
+Ask_for_card_numberNext	go forward
+Ask_for_card_numberNext	go to the next page
+Ask_for_card_numberNext	next
+Ask_for_card_numberNext	next page
+Ask_for_card_numberNext	read the next result
+Ask_for_card_numberNext	read the next results
+Ask_for_card_numberNext	show me next
+Ask_for_card_numberNext	show me the follow result
+Ask_for_card_numberNext	show me the following results
+Ask_for_card_numberNext	show me the next page
+Ask_for_card_numberNext	switch to the next
+Ask_for_verification_pin	{numberslot}
+Ask_for_verification_pin	one hundred twenty three thousand five hundred fifty five
